@@ -12,6 +12,6 @@
 
 // Inserção dos dados no Banco de Dados
     $sql = "INSERT INTO usuarios (usuario, senha, categoria) VALUES ('$usuario', '$senha', '$categoria')";
-    $result = mysqli_query($conexao, $sql); 
+    $query = mysqli_query($conexao, $sql); 
     header('Location: ../index.php'); // Redirecionando ao index.php
 ?>
