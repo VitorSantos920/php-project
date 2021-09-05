@@ -1,0 +1,122 @@
+@charset "UTF8";
+@font-face{
+	font-family:'FonteLogo';
+	src:url(../fonts/bubblegum-sans-regular.otf);
+}
+form#formu{
+	
+	margin:auto;
+	width:700px;
+	position:relative;
+}
+
+h1{
+	font-size:20px;
+}
+
+/* Formatação da tag <body> */
+body{
+	background-color:#dddddd;
+	color: rgba(0,0,0,1);
+	font-family:Arial ,sans-serif; 
+	font-size:15px;
+
+}
+
+/* Formatação da div Interface */
+div#interface{
+	margin:-20px auto 0px auto;
+	padding:10px 10px 10px 10px;
+	background-color:#ffffff;
+	width:900px;
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);
+}
+
+
+		
+/* Formatação do menu principal */
+nav#menu{
+	display:block;
+}	
+nav#menu ul{
+	position:relative;
+	top:-325px; 
+	left:195px;
+	text-transform:uppercase;
+}
+nav#menu li{
+	padding:10px;
+	margin:2px;
+	display:inline-block;
+	background-color:#dddddd;
+	font-family:"Comic Sans MS",sans-serif; 
+	transition: background-color 1s;
+}
+nav#menu h1{
+	display:none;
+}
+nav#menu li:hover{
+	background-color:#606060;
+}
+nav#menu a{
+	color:#000000;
+	text-decoration:none;
+}
+nav#menu a:hover{
+	color:#ffffff;
+}
+	
+
+/* Formatação da tag <header> e seu conteúdo */
+header#cabecalho img{
+	position: relative;
+	top:-40px;
+	left:760px;
+}
+header#cabecalho {
+	height:150px;
+	border-bottom:2px #606060 solid;
+	background:url(../img/IMG3.png) no-repeat 0px 5px;
+}
+header#cabecalho hgroup{
+	display:block;
+	position:relative;
+	top:0px;
+	left:90px;
+}
+header#cabecalho h1{
+	padding:0px;
+	margin-bottom:0px;
+	margin-top:50px;
+	font-family:FonteLogo,sans-serif;
+	font-size:32pt;
+	color:#606060;
+	text-shadow:1px 1px 1px rgba(0,0,0,.6);
+}
+header#cabecalho h2{
+	padding:0px;
+	margin-top:0px;
+	font:Arial,sans-serif;
+	font-size:15pt;
+	color:#888888;
+}
+
+
+/* Formatação da tag <footer> e seu conteúdo */	
+footer#rodape{
+	padding:5px;
+	clear:both;
+	border-top:2px #606060 solid;
+}
+footer#rodape p{
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+}
+footer#rodape img{
+	display:block;
+	position:relative;
+	top:-50px;
+	left:710px;
+}
+
