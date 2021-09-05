@@ -11,7 +11,7 @@
 // Verificação dos dados com MySQL instrução
 
     $sql = "SELECT * FROM usuarios WHERE usuario='$usuario' AND senha = '$senha' AND categoria = '$categoria'";
-    $result = mysqli_query($conexao, $sql);
+    $query = mysqli_query($conexao, $sql);
     
     if(mysqli_num_rows($result) == 0){
         session_unset(); // Desconfigurar as variáveis de sessão,
